@@ -1,5 +1,73 @@
-body {
-    font-family: 'Roboto Slab', sans-serif;
-    background: #aeafb0;
+body, html {
+    margin: 0;
 }
+/* Navigation bar section */
+
+
+
+/* Header section */
+#header-pic {
+    padding: 0;
+    margin: 0;
+    border:0;
+    width:100%;
+    z-index: 1;
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 2;
+}
+
+.header-text-block {
+    position: absolute;
+    top: 170px;
+    font-size: 3rem;
+    width: 1257px;
+    height: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgba(255, 254, 254, 0.6);
+}
+
+.header-text {
+    position: absolute;
+    top: 18%;
+    left: 113px;
+    right: 19px;
+    bottom: 158px;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: darkslategray;
+    line-height: 1.5;
+}
+
+span.hello {
+    left: 113px;
+    right: 19px;
+    bottom: 158px;
+    font-family: monospace;
+    font-size: 60px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: darkgoldenrod;
+    line-height: 1.5;
+}
+
+/* About section */
+
+/* Footer section */
+
 
